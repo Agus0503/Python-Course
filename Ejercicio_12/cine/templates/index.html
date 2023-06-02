@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<h1>Films Home</h1>
+
+    <p>Welcome to <em>CineWeb</em>
+
+<h2>Dynamic content</h2>
+
+    <p>The Library has the following record counts:</p>
+
+    <ul>
+        <li><strong>Peliculas:</strong> {{ num_films }}</li>
+        <li><strong>Directors:</strong> {{ num_directors }}</li>
+    </ul>
+
+{% endblock %}
